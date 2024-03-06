@@ -221,7 +221,7 @@ footer{
 
 
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 896px) {
     body{
         width: 100%;
         overflow-x: hidden;
