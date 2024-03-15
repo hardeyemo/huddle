@@ -10,7 +10,6 @@ section{
     align-items: center;
     width: 100%;
     background-image: url(/images/bg-hero-desktop.svg);
-    background-color: hsl(193, 100%, 96%);
 }
 .f{
     background-color: hsl(193, 100%, 96%);
@@ -40,7 +39,6 @@ nav button{
     font-size: 35px
 }
 .fwrite p{
-    /* font-size: 40px; */
     width: 52vw;
 }
 .fwrite h3{
@@ -237,7 +235,7 @@ nav button{
 }
 .fi{
     text-align: center;
-    width: 85%;
+    width: 90vw;
 }
 .f{
     flex-direction: column;
@@ -245,17 +243,16 @@ nav button{
 .fwrite{
     align-items: center;
     text-align: center;
-    h3{
-        width: 90vw;
-        font-size: 35px;
-    }
-    p{
-        font-size: 20px;
-        width: 80vw;
-        text-align: center;
-    }
 }
-
+.fwrite h3{
+    width: 90vw;
+    font-size: 35px;
+}
+.fwrite p{
+    font-size: 20px;
+    width: 85vw;
+    text-align: center;
+}
 .fwrite button{
     width: 50vw;
     padding: 15px 0px;
@@ -266,14 +263,13 @@ nav button{
 .s{
     flex-direction: column-reverse;
     gap: 40px;
-    width: 85vw;
+    width: 100vw;
 
 }
 .s img{
     width: 70vw;
 }
-.swrite{
-   
+.swrite{ 
     align-items: center;
     text-align: center;
     h3{
@@ -283,8 +279,7 @@ nav button{
     }
 }
 .swrite p{
-    width: 85vw;
-    align-items: center;
+    width: 100vw;
 }
 .left{
     align-items: center;
@@ -293,7 +288,7 @@ nav button{
     flex-direction: column;
     gap: 30px;
     align-items: center;
-    width: 85vw;
+    width: 100vw;
 }
 .about{
     align-items: center;
@@ -306,27 +301,26 @@ nav button{
     width: 70vw;
     align-items: center;
     font-size: 20px;
-    p{
-        font-size: 20px;
-        align-items: center;
-        width: 80vw;
-    }
+}
+.twrite p{
+    font-size: 20px;
+    align-items: center;
+    width: 100vw;
 }
 .fo{
     flex-direction: column;
     gap: 20px;
-    width: 85vw;
+    width: 100vw;
 }
 .fo img{
     width: 70vw;
 }
 .fowrite{
     align-items: center;
-    p{
-        font-size: 20px;
-        width: 80vw;
-        align-items: center;
-    }
+}
+.fowrite p{
+    font-size: 20px;
+    width: 100vw;
 }
 .whiteb{
     padding: 0px 3px;
@@ -349,6 +343,7 @@ nav button{
 footer{
     display: flex;
     gap: 70px;
+    width: 100vw;
 }  
 .im{
     width: 60vw;
