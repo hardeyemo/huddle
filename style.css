@@ -218,20 +218,15 @@ footer{
    
 }
 
-
-
-
-@media screen and (max-width: 896px) {
-    body{
+@media screen and (max-width: 950px) {
+body{
         width: 100%;
         overflow-x: hidden;
     }
-    
 nav{
     gap: 40px;
     align-items: center;
     padding: 6% 0;
-
 }
 nav button{
     width: 38vw;
@@ -239,6 +234,10 @@ nav button{
 }
 .logo{
     width: 35vw;
+}
+.fi{
+    text-align: center;
+    width: 85%;
 }
 .f{
     flex-direction: column;
@@ -335,29 +334,26 @@ nav button{
 .swrite p, .twrite p, .fowrite p{
     text-align: center;
 }
-
 .join{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 80px;
+    gap: 50px;
 }
 .location{
     display: flex;
-    p{
-        width: 70vw;
-    }
+}
+.location p{
+    width: 70vw;
 }
 footer{
     display: flex;
-    gap: 50px;
+    gap: 70px;
 }  
 .im{
     width: 60vw;
     position: relative;
     top: 40px;
 }
-
-
 
 }
